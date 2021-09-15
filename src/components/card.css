@@ -1,0 +1,58 @@
+.question-div {
+    font-size: .5em;
+    text-align: center;
+}
+.flip-card {
+    background-color: transparent;
+    margin: auto;
+    height: 140px;
+    width: 150px;
+    border: 1px solid white;
+    perspective: 1000px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    background-color: #3333ff;
+    color: white;
+}
+.flip-card-back {
+    background-color: #3333ff;
+    color: white;
+    transform: rotateY(180deg);
+}
+.amount-div {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #3333ff;
+}
+.amount-div span {
+    align-self: center;
+}
+.no-click {
+    pointer-events: none;
+}
+.mainQuestion {
+    position: absolute;
+    z-index: 20;
+}
+.transformBase {
+    transform-origin: left top;
+}

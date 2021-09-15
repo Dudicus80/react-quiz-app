@@ -1,0 +1,17 @@
+.restBtn {
+    display: flexbox;
+    font-size: 5em;
+    text-align: center;
+    flex-direction: column;
+}
+.restBtn h1 {
+    margin-bottom: 0;
+}
+.restBtn button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #3333ff;
+    margin: 10px 5px 10px 5px;
+    box-shadow: inset 1px 1px rgba(255,255,255, .5), 2px 1px rgba(200,200,200,.5), 3px 3px rgba(150,150,150,.5), inset 1px 1px #11f;
+}

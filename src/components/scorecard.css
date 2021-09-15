@@ -1,0 +1,15 @@
+.score-div {
+    border: black solid 3px;
+    width: 200px;
+    float: left;
+    display: flexbox;
+    align-items: center;
+    font-size: 1.75rem;
+    text-align: center;
+}
+.score-div h4 {
+    margin: 0;
+}
+.current-turn {
+    background-color: green;
+}

@@ -1,0 +1,34 @@
+
+.start-menu{
+    border: solid #3333ff 3px;
+    display: flex;
+    width: 600px;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #33c, #fff, #33c);
+}
+.start-menu p {
+    margin: 0;
+    font-size: x-large;
+}
+.start-menu button {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #3333ff;
+    margin: 10px 5px 10px 5px;
+    box-shadow: inset 1px 1px rgba(255,255,255, .5), 2px 1px rgba(200,200,200,.5), 3px 3px rgba(150,150,150,.5), inset 1px 1px #11f;
+}
+.team-names{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    justify-content: center;
+}
+.team-names input {
+    width: 75%;
+}
